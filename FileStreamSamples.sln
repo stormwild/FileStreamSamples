@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "PhotoLibraryDb", "PhotoLibraryDb\PhotoLibraryDb.sqlproj", "{6E4C9513-5F62-4F20-B374-9F163662E216}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6E4C9513-5F62-4F20-B374-9F163662E216}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E4C9513-5F62-4F20-B374-9F163662E216}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E4C9513-5F62-4F20-B374-9F163662E216}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{6E4C9513-5F62-4F20-B374-9F163662E216}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E4C9513-5F62-4F20-B374-9F163662E216}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E4C9513-5F62-4F20-B374-9F163662E216}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1B7B82BA-95EA-4FA3-981D-38856C5F9D87}
+	EndGlobalSection
+EndGlobal
