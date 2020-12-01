@@ -9,5 +9,5 @@ Post-Deployment Script Template
                SELECT * FROM [$(TableName)]					
 --------------------------------------------------------------------------------------
 */
-INSERT INTO PhotoAlbum(Description, Photo)
-VALUES('First Pic', CAST('BLOB' AS varbinary(max)));
+:r "Scripts/TestData/TestData.sql"
+GO
