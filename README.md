@@ -35,7 +35,7 @@ Does not burdern SQL Server with regard file streaming.
 
 FILESTREAM can be enabled during setup or using SQL Server Configuration Manager
 
-![]("./docs/enable-filestream-using-sql-server-configuration-manager")
+![](docs/enable-filestream-using-sql-server-configuration-manager.png)
 
 
 [Remote Blob Store (RBS) (SQL Server)](https://docs.microsoft.com/en-us/sql/relational-databases/blob/remote-blob-store-rbs-sql-server?view=sql-server-ver15)
