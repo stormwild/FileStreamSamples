@@ -9,3 +9,4 @@ BEGIN
     INSERT INTO PhotoAlbum(Description, Photo) 
     VALUES('First Pic', CAST('BLOB' AS varbinary(max)));
 END;
+

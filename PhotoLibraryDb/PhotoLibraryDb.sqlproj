@@ -62,13 +62,14 @@
   <ItemGroup>
     <Folder Include="Properties" />
     <Folder Include="Scripts" />
-    <Folder Include="Scripts\TestData" />
     <Folder Include="Scripts\PreDeployment" />
+    <Folder Include="dbo" />
+    <Folder Include="dbo\Tables" />
+    <Folder Include="Scripts\PostDeployment" />
   </ItemGroup>
   <ItemGroup>
+    <Build Include="dbo\Tables\PhotoAlbum.sql" />
     <Build Include="PhotoLibraryDb.sql" />
-    <Build Include="dbo.PhotoAlbum.sql" />
-    <None Include="Scripts\TestData\TestData.sql" />
   </ItemGroup>
   <ItemGroup>
     <PostDeploy Include="Script.PostDeployment.sql" />
@@ -79,5 +80,8 @@
   </ItemGroup>
   <ItemGroup>
     <PreDeploy Include="Script.PreDeployment.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Scripts\PostDeployment\TestData.sql" />
   </ItemGroup>
 </Project>

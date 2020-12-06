@@ -9,5 +9,5 @@ Post-Deployment Script Template
                SELECT * FROM [$(TableName)]					
 --------------------------------------------------------------------------------------
 */
-:r "Scripts/TestData/TestData.sql"
+:r "Scripts/PostDeployment/TestData.sql"
 GO
